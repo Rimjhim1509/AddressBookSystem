@@ -101,5 +101,7 @@ public class AddressBook {
             System.out.println(c);
         }
     }
-
+    public ArrayList<Contact> getContact(){
+        return contactList;
+    }
     }
